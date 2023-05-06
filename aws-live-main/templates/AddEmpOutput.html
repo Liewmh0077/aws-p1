@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Save Successful</title>
+	<style>
+		body {
+			background-image: url("123.png");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			color: #fff;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			box-sizing: border-box;
+			background-color: rgba(255, 255, 255, 0.9);
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			margin-top: 50px;
+		}
+		h1 {
+			font-size: 36px;
+			margin: 0;
+			color: DodgerBlue;
+			text-align: center;
+		}
+		h2 {
+			font-size: 24px;
+			margin: 0;
+			text-align: center;
+			color: black;
+		}
+		button[type="submit"] {
+			background-color: #343a40;
+			color: #fff;
+			padding: 10px 20px;
+			font-size: 18px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color .3s;
+			margin-top: 20px;
+		}
+		button[type="submit"]:hover {
+			background-color: #23272b;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Save Successful</h1>
+			<h2>Following Employee has been added to the database</h2>
+			<h2>{{ name }}</h2>
+			<form action="/" autocomplete="on" method = "GET">
+				<button type="submit">Go Back</button>
+			</form>
+	</div>
+</body>
+</html>
