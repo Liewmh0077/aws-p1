@@ -31,7 +31,7 @@ def about():
     return render_template('AboutUs.html')
 
 @app.route("/back", methods=['GET', 'POST'])
-def home():
+def back():
     return render_template('GetEmp.html')
 
 
